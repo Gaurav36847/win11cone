@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mt{
+    margin: 8px 7px;
+}
+
+body{
+    /* background-image: url("bg.jpeg"); */
+    /* background-repeat: no-repeat; */
+    height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+.taskbar{
+    background-color: #032f3c;
+    display: flex;
+    justify-content: center;
+   position: absolute;
+   bottom: 0px;
+   margin: auto;
+   width: 100%;
+   z-index: 110;
+   cursor: pointer;
+}
+
+
+.right{
+    position: absolute;
+    right: 0px;
+    margin: 6px 0;
+    height: 83%;
+}
+
+.startmenu{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    /* bottom: 50px; */
+    bottom: -655px;
+    transition: all 0.3s ease-in;
+}
+
+.searchmenu{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    /* bottom: 50px; */
+    bottom: -655px;
+    transition: all 0.3s ease-in;
+}
+
+.edge{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    /* bottom: 42px; */
+    bottom: -761px;
+    transition: all 0.3s ease-in;
+}
+
+.filemanager{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    /* bottom: 110px; */
+    bottom: -761px;
+    transition: all 0.3s ease-in;
+}
+
+
+.searchmenu img{
+    height: 92vh;
+    border-radius: 9px;
+
+}
+
+.startmenu img{
+    height: 92vh;
+    border-radius: 9px;
+
+}
+
+.edge img{
+    height: 93.9vh;
+    /* border-radius: 9px; */
+    width: 100vw;
+
+}
+
+.filemanager img{
+    height: 80vh;
+    border-radius: 9px;
+    width: 49vw;
+
+}
